@@ -1,15 +1,11 @@
 {
-  "name": "hello_world",
+  "name": "auto-delete-access-keys",
   "version": "1.0.0",
-  "description": "hello world sample for NodeJS",
+  "description": "automatically deletes access keys for all AWS users based on a schedule",
   "main": "app.js",
-  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
-  "author": "SAM CLI",
+  "author": "Eric Hamacher",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.1199.0"
-  },
-  "scripts": {
-    "test": "mocha tests/unit/"
   }
 }

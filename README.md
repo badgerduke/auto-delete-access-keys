@@ -7,4 +7,4 @@ sam deploy --stack-name delete-access-keys --s3-bucket auto-delete-access-keys-s
 
 ![Diagram]
 
-[Diagram]: https://github.com/badgerduke/auto-delete-access-keys/blob/master/DeleteAccessKeys.png
+[Diagram]: https://github.com/badgerduke/auto-delete-access-keys/blob/main/DeleteAccessKeys.png

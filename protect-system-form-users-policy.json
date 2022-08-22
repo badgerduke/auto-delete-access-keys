@@ -6,7 +6,7 @@
           "Effect": "Deny",
           "Action": "events:*",
           "Resource": [
-              "arn:aws:events:us-east-1::rule/AutoDeleteAccessKeysScheduledEvent"
+              "arn:aws:events:::rule/AutoDeleteAccessKeysScheduledEvent"
           ]
       },
       {
@@ -31,7 +31,7 @@
           "Sid": "VisualEditor5",
           "Effect": "Deny",
           "Action": "lambda:*",
-          "Resource": "arn:aws:lambda:us-east-1::function:*-AutoDeleteAccessKeysFunction-*"
+          "Resource": "arn:aws:lambda:::function:*-AutoDeleteAccessKeysFunction-*"
       }
   ]
 }
